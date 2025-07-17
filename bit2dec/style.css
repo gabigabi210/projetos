@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 90px;
+  height:90px;
+  font-size: 100px;
+  font-family: "Silkscreen", sans-serif;
+}
+
+body{
+  background-color: black;
+}
+h1{
+  text-align: center;
+  color:greenyellow; 
+  font-size:70px; 
+  font-family: "Press Start 2P", system-ui;
+}
+
+#entrada{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#resultado {
+  display: flex;
+  justify-content: center;
+  color: greenyellow;
+  font-family: "Silkscreen", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  padding: 50px;
+}
